@@ -1,0 +1,15 @@
+Dockerfile
+docker-compose.yml
+README.md
+LICENSE
+.gitignore
+.bash_history
+.python_history
+**/.DS_Store
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/__pycache__
+**/*.pkl
+data
+models
