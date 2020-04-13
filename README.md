@@ -12,14 +12,14 @@ BERT + LightGBM + optuna で手軽に自然言語処理モデルを構築する
 
 # livedoorニュースコーパスのデータのダウンロード
 
-`src/data/download_livedoor_news.sh` を実行してデータをダウンロードする。
+`src/data/download_livedoor_news.sh` を実行してデータをダウンロードする。  
 その後、 `src/data/preprocess.py` を実行して前処理をし、トレーニング用とテスト用にデータを分割して保存する。
 
 # 日本語学習済みBERTモデルのダウンロード
 
 手順は[bert-as-serviceを使って日本語BERTの文エンベディング計算サーバーを作る](https://qiita.com/shimaokasonse/items/97d971cd4a65eee43735)を参照している。
 
-[日本語学習済みBERTモデル](https://drive.google.com/drive/folders/1Zsm9DD40lrUVu6iAnIuTH2ODIkh-WM-O)を `models/bert_jp` にダウンロードしておく。
+[日本語学習済みBERTモデル](https://drive.google.com/drive/folders/1Zsm9DD40lrUVu6iAnIuTH2ODIkh-WM-O)を `models/bert_jp` ディレクトリを作成し、ダウンロードしておく。
 
 bert-as-service でロードできるようファイル名の変更
 
